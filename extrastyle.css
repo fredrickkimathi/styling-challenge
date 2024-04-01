@@ -1,0 +1,229 @@
+@font-face {
+  font-family: playfair;
+  src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+.logo{
+    height: 90px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.top-bar-right{
+    padding-top: 30px;
+    float: right;
+    color: white;
+    font-size: 12px;
+}
+.first{
+    background-image: url("images/b-ground.png");
+    background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
+    background-position: center;  /* Optional: Controls image position */
+    background-size: cover;  
+}
+.top-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.white-text {
+    color: white;
+    
+  }
+
+.search-icon{
+    color: white;
+    padding-top: 35px;
+    padding-right: 40px;
+}
+.search-icon :hover{
+  color: aquamarine;
+}
+.design{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.green-pipe{
+    color: green;
+    padding-bottom: 10;
+}
+
+.text-container{
+    display: flex;
+    align-items: baseline;
+   
+}
+.line {
+    width: 100%;  
+    height: 1px;  
+    border-top: 1px solid #ccc; 
+    
+  }
+  .solution{
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 200px;
+  }
+  .chevron-down-icon{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .hello{
+    font-family: playfair;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+  }
+  .chevron-down-icon :hover{
+    color: aquamarine;
+  }
+  .experience{
+    text-align: right;
+    font-size: 10px;
+    padding-right: 50px;
+  }
+  .years{
+    padding-left: 100px;
+    color: green;
+    font-size: 45px;
+  }
+  .about{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  .ct{
+    padding-right: 100px;
+  }
+  .more{
+    color: green;
+    font-size: 14px;
+  }
+  
+
+  .expertise-text {
+    color: rgb(150, 149, 149);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 50px;
+  
+  }
+  #flex-container-1{
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+  }
+  .bsa{
+    background-image: url("images/b-ground.png");
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-size: cover;  
+    color: white;
+    padding: 30px;
+    border-bottom: 20px solid green;
+}
+.ux-design{
+  padding: 30px;
+  border-bottom: 5px solid green
+}
+.mobile-apps{
+  padding: 30px;
+  border-bottom: 5px solid green
+}
+.mmc-africa-content, .elective-content{
+  color: white;
+}
+.elective{
+  padding: 30px;
+  color: white;
+  flex-grow: 1;
+  background-color: orange
+  
+  
+}
+.elective-logo{
+  height: 50px;
+}
+.mmc-africa{
+  background-image: url("images/mmc.jpeg");
+  background-repeat: no-repeat;  
+  background-position: center;  
+  background-size: cover;  
+  padding: 30px;
+  color: white;
+  flex-grow: 1;
+}
+
+#flex-container-2{
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+
+}
+#customer-flex{
+  display: flex;
+  margin-left: 120px;
+  margin-right: 100px;
+  
+}
+
+.company-name{
+  color: grey;
+  font-size: 12px;
+}
+.cy-investment{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.cytonn-investments{
+  background-image: url("images/laptop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+}
+.selected-work{
+  margin-bottom: 50px;
+}
+.lifestyle{
+  background-color: white;
+  padding: 20px;
+}
+#recent-blogs{
+  display: flex;
+  justify-content: space-evenly;
+}
+#recent-blogs{
+  margin-bottom: 50px;
+}
+#orb1{
+  background-color: green;
+  padding: 20px;
+  color: white;
+  margin-left: 20px;
+  flex-basis: 90%;
+
+}
+
+#orb2{
+  background-color: white;
+  padding: 20px;
+  color: green;
+  margin-left: 20px;
+  padding-right: 20px;
+  flex-basis: 90%;
+}
