@@ -227,3 +227,40 @@
   padding-right: 20px;
   flex-basis: 90%;
 }
+#ready{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.test{
+  background-color: rgb(43, 43, 47);
+}
+#footer{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.column1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#myTextbox{
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+}
+#myTextbox:focus {
+  background-color: rgb(188, 195, 195);
+}
+.line1 {
+  width: 100%;  
+  height: 1px;  
+  border-top: 1px solid #ccc; 
+  margin-left: 120px;
+  margin-right: 100px;
+  
+}
